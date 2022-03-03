@@ -1,0 +1,36 @@
+* img {
+  max-width: 100%;
+  cursor: pointer;
+}
+.item {
+  margin-bottom: 20px;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  margin-top: 20px;
+  text-align: center;
+  list-style: none;
+}
+ul li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 15px;
+  background: transparent;
+  border: 1px solid tomato;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+ul li:hover,
+.active {
+  background-color: tomato;
+  border: 1px solid transparent;
+  color: white;
+}
+/* ul {
+  background-color: tomato;
+  border: 1px solid transparent;
+  color: white;
+} */
